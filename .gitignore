@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data — never commit the dataset (3.82 GB)
+*.zip
+DCID/
+data/
+
+# Model checkpoints — large binary files
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+# Generated images (can be reproduced by running the notebook)
+sample_images.png
+class_distribution.png
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
